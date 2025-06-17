@@ -1,0 +1,13 @@
+{
+  "name": "test-drive-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.1",
+    "mysql2": "^2.3.3",
+    "pdfkit": "^0.15.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

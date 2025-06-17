@@ -1,0 +1,31 @@
+:root {
+  --blue-main: #2563eb;
+  --blue-dark: #1e40af;
+  --blue-light: #93c5fd;
+}
+
+.btn-blue {
+  background-color: var(--blue-main);
+  color: white;
+  border: none;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+  background-color: var(--blue-dark);
+  color: white;
+}
+
+.text-blue {
+  color: var(--blue-main);
+}
+
+.form-control:focus {
+  border-color: var(--blue-main);
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+.alert {
+  border-radius: 8px;
+}
